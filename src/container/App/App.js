@@ -1,13 +1,22 @@
 import React from "react";
-// import styles from "./App.module.scss";
 import BookList from "../../component/BookList/BookList";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from "./App.module.scss";
+
+
+
 
 
 function App() {
     return(
         <main>
-        <h1>BOOKWORM</h1>
-        <BookList />
+            <h1>BOOKWORM</h1>
+       
+             <BookList />
+        
+       
+       
+   
         </main>
     );
 }

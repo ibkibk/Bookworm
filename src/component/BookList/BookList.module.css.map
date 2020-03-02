@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "BookList.module.scss"
-    ],
-    "names": [],
-    "file": "BookList.module.css"
-}

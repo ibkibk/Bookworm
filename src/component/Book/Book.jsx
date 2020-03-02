@@ -1,18 +1,23 @@
 import React, { Component } from "react";
 import styles from "./Book.module.scss";
 
+
+
+
 class Book extends Component{
     render(){
+       
+    
+
         return(
-            <main>
-                <h1>BOOKWORM</h1>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </main>
+            <section >
+                    <div className={styles.author}>   
+                     <div>Title :{this.props.bookData.title}</div>
+                     <div>Author :{this.props.bookData.author}</div>
+                     <div>Page :{this.props.bookData.pageCount}</div>
+                     <img className={styles.imge} src={this.props.bookData.image}/>
+                     </div>
+          </section>
         )
     }
 }
