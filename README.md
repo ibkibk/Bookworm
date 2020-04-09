@@ -1,4 +1,4 @@
-BookWorm | React
+# BookWorm | React
 
 This was one of the first projects built alone in React. It is a React App with a Firebase database attached - all data renders directly from the database.
 
